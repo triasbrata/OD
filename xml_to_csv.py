@@ -1,10 +1,11 @@
 # based on https://github.com/datitran/raccoon_dataset/blob/master/xml_to_csv.py
 
 import os
+import sys
 import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
-
+image_folder =sys.argv[1]
 
 def xml_to_csv(path):
     xml_list = []
