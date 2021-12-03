@@ -6,7 +6,7 @@ import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
 image_folder =sys.argv[1]
-printf("image folder" + image_folder)
+print("image folder {}".format(image_folder))
 def xml_to_csv(path):
     xml_list = []
     for xml_file in glob.glob(path + '/*.xml'):
