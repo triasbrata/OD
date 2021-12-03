@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>_v_t51.2885-15_sh0.08_e35_s750x750_254004479_1163441740854706_9167500317762503778_n.jpg</filename>
+	<path>/home/triasbrata/development/OD/images/test/_v_t51.2885-15_sh0.08_e35_s750x750_254004479_1163441740854706_9167500317762503778_n.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>750</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ojk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>648</xmin>
+			<ymin>685</ymin>
+			<xmax>719</xmax>
+			<ymax>721</ymax>
+		</bndbox>
+	</object>
+</annotation>
