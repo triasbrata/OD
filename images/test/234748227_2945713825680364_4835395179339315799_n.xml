@@ -1,7 +1,7 @@
 <annotation>
-	<folder>train</folder>
+	<folder>test</folder>
 	<filename>234748227_2945713825680364_4835395179339315799_n.jpg</filename>
-	<path>/home/triasbrata/development/OD/images/train/234748227_2945713825680364_4835395179339315799_n.jpg</path>
+	<path>/home/triasbrata/development/OD/images/test/234748227_2945713825680364_4835395179339315799_n.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>157</xmin>
-			<ymin>626</ymin>
+			<xmin>161</xmin>
+			<ymin>633</ymin>
 			<xmax>271</xmax>
-			<ymax>686</ymax>
+			<ymax>687</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>train</folder>
+	<folder>test</folder>
 	<filename>260480512_591523935389521_2045228006247242198_n.jpg</filename>
-	<path>/home/triasbrata/development/OD/images/train/260480512_591523935389521_2045228006247242198_n.jpg</path>
+	<path>/home/triasbrata/development/OD/images/test/260480512_591523935389521_2045228006247242198_n.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
