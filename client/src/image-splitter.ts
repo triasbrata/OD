@@ -26,18 +26,17 @@ export async function imageSplit(imagePath:string, h:number, w:number) {
         
 }
 async function  main() {
-   
-            const base_path = resolve('../images2');
-            const dirImgs = readdirSync(base_path);
-            for (const folder of dirImgs) {
-             const folderPath = join(base_path, folder);
-                if (lstatSync(folderPath).isDirectory()) {
-                    const imgInForlder = readdirSync(folderPath);
-                    for (const imgFile of imgInForlder) {
-                      const imagePath = join(folderPath, imgFile);
-                      await imageSplit(imagePath, 250, 250);
-                    }
-                } 
-            }
+  const base_path = resolve('../images2');
+  const dirImgs = readdirSync(base_path);
+  for (const folder of dirImgs) {
+    const folderPath = join(base_path, folder);
+      if (lstatSync(folderPath).isDirectory()) {
+          const imgInForlder = readdirSync(folderPath);
+          for (const imgFile of imgInForlder) {
+            const imagePath = join(folderPath, imgFile);
+            await imageSplit(imagePath, 250, 250);
+          }
+      } 
+  }
 }
 main();

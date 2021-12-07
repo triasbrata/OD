@@ -20,8 +20,9 @@ async function  main() {
     return prev;
   }, [[],[]] as [string[], string[]]);
   for (const imgFile of imgFiles ) {
-    const xmlfile = imgFile.replace(/\.(.*)$/g, '.xml');
+    const xmlfile = imgFile.replace(/\.(jpg)$/g, '.xml');
     if(xmlFiles.indexOf(xmlfile)< 0){
+      // console.log({xmlfile, imgFile})
       rmSync(imgFile);
     }
   }
