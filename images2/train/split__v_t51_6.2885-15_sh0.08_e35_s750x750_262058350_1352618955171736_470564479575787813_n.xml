@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>split__v_t51_6.2885-15_sh0.08_e35_s750x750_262058350_1352618955171736_470564479575787813_n.jpg</filename>
+	<path>/home/triasbrata/development/OD/images2/train/split__v_t51_6.2885-15_sh0.08_e35_s750x750_262058350_1352618955171736_470564479575787813_n.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ojk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>128</xmin>
+			<ymin>222</ymin>
+			<xmax>156</xmax>
+			<ymax>237</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>split_262010511_4504028866317570_1032986204275700321_n_11.jpg</filename>
+	<path>/home/triasbrata/development/OD/images2/test/split_262010511_4504028866317570_1032986204275700321_n_11.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>140</width>
+		<height>50</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ojk</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>18</ymin>
+			<xmax>33</xmax>
+			<ymax>37</ymax>
+		</bndbox>
+	</object>
+</annotation>
