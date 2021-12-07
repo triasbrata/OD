@@ -49,8 +49,8 @@ class TFRecord:
 
     def create_tf(self, group, path):
           image_path = os.path.join(path, '{}'.format(group.filename));
-          if pathlib.Path(image_path).exists():
-            print('image path {} not found'.format(image_path))
+          if not pathlib.Path(image_path).exists():
+            raise Exception('image path {} not found'.format(image_path))
           with tf.io.gfile.GFile(os.path.join(path, '{}'.format(group.filename)), 'rb') as fid:
               encoded_jpg = fid.read()
           encoded_jpg_io = io.BytesIO(encoded_jpg)
@@ -102,7 +102,8 @@ class TFRecord:
             try:
               tf_sample = self.create_tf(group, path)
               writer.write(tf_sample.SerializeToString())
-            except:
+            except Exception as err:
+              logging.error(err)
               continue
         logging.info('Successfully created the TFRecords: {}'.format(output_path))
 
