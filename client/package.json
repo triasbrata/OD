@@ -5,12 +5,16 @@
   "author": "Trias",
   "license": "MIT",
   "dependencies": {
+    "@jimp/bmp": "^0.16.1",
+    "@jimp/jpeg": "^0.16.1",
+    "@jimp/png": "^0.16.1",
     "@tensorflow/tfjs": "^1.7.4",
     "@tensorflow/tfjs-converter": "^1.7.4",
     "@tensorflow/tfjs-core": "^1.7.4",
     "@tensorflow/tfjs-node": "^1.7.4",
-    "source-map-support": "^0.5.21",
-    "canvas": "^2.8.0"
+    "canvas": "^2.8.0",
+    "jimp": "^0.16.1",
+    "source-map-support": "^0.5.21"
   },
   "devDependencies": {
     "@types/node": "14",
